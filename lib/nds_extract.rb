@@ -31,5 +31,5 @@ def directors_totals(nds)
       directorCount += 1
   end
   #result[:director] = totalGross
-  nil
+  return result
 end
