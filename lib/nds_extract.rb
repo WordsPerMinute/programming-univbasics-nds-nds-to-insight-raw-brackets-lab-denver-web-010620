@@ -28,6 +28,7 @@ def directors_totals(nds)
         movieByDirector += 1
       end
       result[directors_database[directorCount][:name]] = totalDirectorGross
+      directorCount += 1
   end
   #result[:director] = totalGross
   nil
