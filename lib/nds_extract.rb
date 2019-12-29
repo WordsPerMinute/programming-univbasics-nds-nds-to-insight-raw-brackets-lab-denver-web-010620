@@ -24,7 +24,7 @@ def directors_totals(nds)
       totalDirectorGross = 0
       movieByDirector = 0
       while movieByDirector < nds[directorCount][:movies].length do
-        totalDirectorGross += directors_database[0][:movies][movieByDirector][:worldwide_gross]
+        totalDirectorGross += directors_database[directorCount][:movies][movieByDirector][:worldwide_gross]
         movieByDirector += 1
       end
       result[directors_database[directorCount][:name]] = totalDirectorGross
